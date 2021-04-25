@@ -1,0 +1,47 @@
+/* body { */
+    /* background-image: url(../img/bg.png); */
+      	
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+/* } */
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: url('../img/head.png')
+}
+.bg1 {
+    background-size: 120%; 
+    background-repeat: no-repeat;
+}
+.bg2 {
+    position: absolute; top: 15px; left: 15px;
+}
+.lines {
+    line-height: 0.5;
+    text-align: center;
+  }
+  .lines span {
+    display: inline-block;
+    position: relative;  
+  }
+  .lines span:before,
+  .lines span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid red;
+    top: 0;
+    width: 300px;
+  }
+  .lines span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .lines span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
